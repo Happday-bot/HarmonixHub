@@ -1,0 +1,75 @@
+  * {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  label{
+    color: rgb(214, 159, 118);
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    background: url('./assets/music_bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  .auth-container {
+    background: rgba(255, 255, 255, 0.1); /* translucent background */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    width: 30%;
+    height: 45%;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+  .tabs {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+  }
+  .tab {
+    flex: 1;
+    text-align: center;
+    padding: 15px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  .tab.active {
+    background: #ab4219;
+    font-weight: bold;
+  }
+  .tab:hover {
+    background: #c24d1f; /* Slightly lighter or richer shade */
+    color: #ffffff;
+    font-weight: bold;
+  }
+  .form-container {
+    padding: 20px;
+    display: none;
+  }
+  .form-container.active {
+    display: block;
+  }
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  button {
+    width: 100%;
+    padding: 10px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  button:hover {
+    background: #1d4ed8;
+  }

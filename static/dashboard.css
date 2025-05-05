@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+
+  body {
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    background: url('./assets/music_bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+  }
+
+  /* Sidebar */
+  .sidebar {
+    width: 220px;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease;
+  }
+
+  .sidebar a {
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    transition: background 0.3s ease;
+  }
+
+  .sidebar a:hover, .sidebar a.active {
+    background: #2563eb;
+  }
+
+  .content {
+    flex: 1;
+    padding: 30px;
+    overflow-y: auto;
+  }
+
+  h1 {
+    margin-top: 0;
+  }
+
+  .grid {
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+
+  .song-card {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    padding: 15px 0px 15px 15px;
+    box-sizing: border-box;
+    width: 340px;
+    backdrop-filter: blur(10px);
+  }
+
+  .song-card h3, .song-card p {
+    margin: 0 0 10px;
+  }
+
+  .song-card button {
+    margin-right: 10px;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background: #b73434;
+    color: white;
+    transition: background 0.3s ease;
+  }
+
+  .song-card button:hover {
+    background: #1d4ed8;
+  }
+
+  .song-card:hover{
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .hidden {
+    display: none;
+  }
