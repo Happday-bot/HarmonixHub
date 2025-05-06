@@ -3,9 +3,9 @@
 **HarmonixHub** is a full-stack music management platform where users can **upload**, **store**, and **stream their personal music files** securely from anywhere. Built with FastAPI and MongoDB, it supports user authentication, audio compression, metadata updates, and seamless file handling.
 
 ---
-![login page]("C:/Users/lenovo/OneDrive/Desktop/login.jpg")
+![login page](C:/Users/lenovo/OneDrive/Desktop/login.jpg)
 ---
-![dashboard]("C:/Users/lenovo/OneDrive/Desktop/dashboard.jpg")
+![dashboard](C:/Users/lenovo/OneDrive/Desktop/dashboard.jpg)
 ---
 
 ## 🚀 Features
