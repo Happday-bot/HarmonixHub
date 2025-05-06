@@ -5,7 +5,7 @@
 ---
 ![login page](/static/assets/login.jpg)
 ---
-![dashboard]("/static/assets/dashboard.jpg)
+![dashboard](/static/assets/dashboard.jpg)
 ---
 
 ## 🚀 Features
